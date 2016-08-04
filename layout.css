@@ -1,0 +1,111 @@
+
+html, body{
+    background-color:white;
+    width: 100%; 
+}
+
+#title{
+    
+    min-width:100%;
+    background-color:green;
+        height:80px;
+        margin-top:-8px;
+        margin-left:-8px;
+        padding-left:5px;
+        
+    }
+    #title h1 {
+        margin-left:9px;
+        margin-top:-1px;
+        color:white;
+        font-family:Georgia;
+        font-size:50px;
+        padding-top:13px;
+    }
+        #title h1 img {
+            padding-right:5px;
+            float:left;
+            padding-top:10px;
+            width:50px;
+            height:50px;
+        }
+
+#nav{
+    width:100%;
+}
+    #nav li {
+        display:in-line;
+        float:left;
+    }
+    #nav li a {
+        display:block;
+        color:white;
+        text-align:center;
+        padding: 10px 20px;
+        text-decoration:none;
+        border-radius:3px;
+    }
+    #nav li a:hover{
+        background-color:black;
+    }
+    #nav a {
+        display:block;
+        padding:8px;
+        background-color:#262626;
+    
+    }
+    #nav ul {
+        
+        margin:0;
+        padding:0;
+        overflow:hidden;
+        list-style-type:none;
+        margin-left:-8px;
+        background-color:#262626;
+    }
+    
+    .active {
+    background-color: #4CAF50;
+}
+
+#content{
+
+	margin: 0px 0px 0px -8px;
+	padding: 10px;
+	clear: both;
+	background-color:white ;
+	border-radius:5px;
+    padding-left:2%;
+	
+}
+    #content p {
+        text-align:left;
+        width: 500px;
+        
+    }
+    #content h2 {
+        border-bottom: 1px black;
+    }
+
+#footer{
+    background-color:#348017;
+    color:white;
+    font-family:Georgia;
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    height: 0px;
+    width: 100%;
+    padding-left:10px;
+    overflow:hidden;
+}
+
+#pic2 {
+    width: 50px;
+    height:50px;
+}
+
+pre
+{
+  font-family: :times;  
+}
